@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background-color: rgb(121, 202, 230);
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: rgb(196, 119, 173);
+    height: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav a{
+    color: rgb(223, 35, 129);
+    text-decoration: none;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+nav div img{
+    height: 120px;
+}
+
+.menu{
+    /* display: none; */
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    transform: translateX(100vw);
+    transition: 3s;
+}
+
+.ativo{
+    display: flex;
+    transform: translateX(0);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 400px;
+    margin-top: 350px;
+}
+
+main img{
+    width: 600px;
+}
+
+.roda{
+    transform: rotate(360deg);
+    transition: 2s;
+}
